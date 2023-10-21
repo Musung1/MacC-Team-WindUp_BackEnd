@@ -15,7 +15,7 @@ import java.util.Date;
 @Component
 public class JwtUtil {
 
-    @Value("${jwt.secret}")
+    @Value("hello")
     String secret;
 
     public String createToken(String userId, String userName) {
